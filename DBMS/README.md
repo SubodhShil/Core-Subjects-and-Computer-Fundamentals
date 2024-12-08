@@ -8,11 +8,11 @@ Data are stored in the computer as the form of bits or bytes. Data is the collec
 
 ## **Database and DBMS**
 
-> Database is a way that organizes data in tabular form.
-> DBMS is a software that provides convenient ways to create, read/retrieve, update or delete data.
-> RDBMS is a special type of DBMS that stores relational or tabular data.
+> Database is a way that organizes data in tabular form.  
+> DBMS is a software that provides convenient ways to create, read/retrieve, update or delete data.  
+> RDBMS is a special type of DBMS that stores relational or tabular data. RDBMS stores data in structural tables (using rows and columns).
 
-- SQL is a language. 
+-   SQL is a language for managing and querying data.
 
 Usually large amount of data can't be left off roam free. This may occur security vulnerabilities, data inconsistency, ambiguity which end up with financial loss of a company. The raw data stored in a organized safe house where it can easily be accessed, manipulated, managed and updated to data be generate valuable information.
 
@@ -23,3 +23,7 @@ Databases are typically structured in tables, which are made up of rows and colu
 Information is the processed form of a sequence of data. Information help us make value business decisions.
 
 **What is a record?**
+
+## Table
+
+Collection of related data held in a table format.
