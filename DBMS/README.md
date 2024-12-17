@@ -27,3 +27,17 @@ Information is the processed form of a sequence of data. Information help us mak
 ## Table
 
 Collection of related data held in a table format.
+
+## Data types
+
+DECIMAL(5, 2)
+
+`1.2551` ✅  
+`24.5555` 🚫
+
+## Constraint
+
+Some rules that are applied to a column.
+
+1. AUTO_INCREMENT 
+2. PRIMARY KEY

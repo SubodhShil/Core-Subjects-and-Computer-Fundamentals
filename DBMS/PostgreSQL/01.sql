@@ -1,12 +1,11 @@
 -- Creating table in a database
-
 CREATE TABLE person
 (
     id INT,
     name VARCHAR(100),
     city VARCHAR(100)
 );
-
+    
 -- Adding data into table
 
 -- When you're adding data in particular columns 
@@ -40,9 +39,10 @@ UPDATE person
     WHERE id=104;
 
 INSERT INTO person
-VALUES (105, 'Sojib', 'Tongi');
+VALUES (105, 'Gazi', 'Tongi');
 
 /* Deleting data */
 DELETE FROM person 
     WHERE id=105;
+
 
