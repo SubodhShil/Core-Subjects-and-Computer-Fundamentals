@@ -7,6 +7,25 @@ Two or more devices are connect some medium mostly for exchange resources.
 A vast network or connection encompasses computer devices to communicate.
 
 👉 Uses packet switching technique to transmit data across a network by breaking it into smaller pieces called packets.  
+👉
+
+## Internet protocol (IP)
+
+👉 The main task of IP is to deliver the packets from source to the destination based on the IP addresses available in the packet headers.  
+👉 Each packet contains information about where it's coming from and where it's going, known as the source and destination IP addresses.  
+👉 Internet Protocol is responsible for gathering the addresses to which the data is to be transmitted.  
+👉 IP govern the transmission between devices. Now how IP ensure which device is source and which one is the destination. For this, every device in the internet has it's unique IP address. So, protocol ensure the correct device by it's IP address.
+
+## Transmission Control Protocol (TCP)
+
+👉 Responsible for the delivery of data accurately to the IP address.  
+👉 It ensures that data is delivered accurately and in the correct order.  
+👉 TCP breaks data into packets.  
+👉 It sends these packets one by one, each with your address and the recipient's address.  
+👉 The receiver gets these packets in a different order, but TCP reassembles them correctly.   
+👉 If any packet is lost, TCP automatically resends it.  
+👉 When all parts arrive, TCP puts them together in the correct order.        
+
 
 ## **`Client`**
 
