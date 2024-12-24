@@ -18,5 +18,14 @@ Classes are just like the molding of an actual product. For example, the picture
 
 1. **Private**: Data and properties aer only accessible within the class body.
 2. **Public**: Data and properties are accessible to everyone that means even outside the class, it is possible to access the properties by object that are created out of the class.
-3. **Protected**: 
+3. **Protected**:
+
+&nbsp;
+
+<!-- TODO: Edit the image and replace the code with C++ code -->
+
+![](20241224083648.png)
+
+
+## Pillars of OOP
 
