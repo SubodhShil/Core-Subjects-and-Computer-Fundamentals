@@ -26,6 +26,4 @@ Classes are just like the molding of an actual product. For example, the picture
 
 ![](20241224083648.png)
 
-
 ## Pillars of OOP
-
