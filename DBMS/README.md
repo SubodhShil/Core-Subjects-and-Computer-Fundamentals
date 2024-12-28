@@ -40,4 +40,4 @@ DECIMAL(5, 2)
 Some rules that are applied to a column.
 
 1. AUTO_INCREMENT 
-2. PRIMARY KEY
+2. PRIMARY KE
