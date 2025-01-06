@@ -1,69 +1,104 @@
 > # **`DBMS`**
 
-## **Data**
+## **`Data`**
 
-Data are stored in the computer as the form of bits or bytes. Data is the collection of raw bytes. The data is required to extract as meaningful information.
+Data are stored in the computer in the form of bits or bytes. Data is the collection of raw bytes. The data is required to extract meaningful information.
 
-**Byte**: Bytes is the count or number of bits it require to encode a character.
+**Byte**: Bytes are the count or number of bits required to encode a character.
 
-## **Database and DBMS**
+## **`Database and DBMS`**
 
-> Database is a way that organizes data in tabular form.  
-> DBMS is a software that provides convenient ways to create, read/retrieve, update or delete data by manipulating databases.   
+> Database is a way to organize data in tabular form.  
+> DBMS software provides convenient ways to create, read/retrieve, update or delete data by manipulating databases.  
 > RDBMS is a special type of DBMS that stores relational or tabular data. RDBMS stores data in structural tables (using rows and columns).
 
--   SQL is a language for managing and querying data.
+### `Why database?`
 
 Usually large amount of data can't be left off roam free. This may occur security vulnerabilities, data inconsistency, ambiguity which end up with financial loss of a company. The raw data stored in a organized safe house where it can easily be accessed, manipulated, managed and updated to data be generate valuable information.
 
+### `How database look like?`
+
 Databases are typically structured in tables, which are made up of rows and columns. Each row represents a single record, and each column represents a single piece of data about that record.
 
-## **Information**
+## **`Information`**
 
-Information is the processed form of a sequence of data. Information help us make valuable business decisions.
+Information is the processed form of data that helps us make valuable business decisions.
 
-### **What is a record?**
+### **`Data redundancy`**
 
-### **What is concurrency in database?**
+👉 Data redundancy refers to the unwanted repetition of data in different locations.
 
-👉 Simultaneous execution or manipulation of data by several processes or user without resulting in data inconsistency. 
+### **`What is data inconsistency?`**
 
-### **What is NoSQL database?**
+👉 Data inconsistency refers to mismatched data values. It is the concept where there are conflicts or different copies of the same data in the database. This issue occurs when data stored in different locations within the database do not match or are not synchronized.
 
-👉 A schemaless, flexible database capable of storing unstructured data. 
+### **`What is concurrency in database?`**
 
+👉 Concurrency in a database ensures the simultaneous execution or manipulation of data by several processes or users without resulting in data inconsistency.
 
-## Table
+## `Table`
 
-Collection of related data held in a table format.
+The collection of related data is stored in table format. A table is a group of fields with many records.
 
-## Records (Rows)
+## `Records (Rows)`
 
-A record in a table is a single row which combines various data items. 
+A record in a table is a single row which combines various data items.
 
-## Fields (Columns)
+## `Fields (Columns)`
 
-A field within a table represent a specific kind of data. A field organizes data of similar type in a vertical format, more conveniently referred as columns. Each record made of multiple fields. 
+A field within a table represent a specific kind of data. A field organizes data of similar type in a vertical format, more conveniently referred as columns. Each record made of multiple fields.
 
-## Entity 
+## `Attribute`
 
+Attribute refers to the identifier or name of a particular field.
 
+## `Instance`
 
-## Schema 
+The current state of the overall data points available in the DB at a particular timeframe is called an instance. For example, at noon, the instance has 1200 data points; at 1 PM, it becomes 1300.
 
-Blueprint or design of a database is called a schema of a database. 
+## `Entity`
 
+Entity is an object or thing we store in our database. An entity represents "what" you are storing data about.
 
-## Data types
+## `Schema`
+
+The Blueprint or design of a database is called a schema of a database.
+
+### `Abstraction`
+
+-   Abstraction in DBMS refers to hiding the complex details of how data is stored and maintained and instead providing users with a more straightforward way to interact with the data.
+-   Hiding the process or implementation of how data is stored, manipulated or maintained.
+
+## **`3 Schema Architecture`**
+
+1.  ### `Physical Level`
+    1. It deals with the **how** data is stored.
+2.  ### `Logical Level`
+3.  ### `Views Level`
+    1. View level shows only the specific data a particular group needs to see.
+    2. Each view schema describes the database part a particular user group is interested in and hides the remaining portion from that user.
+    3. It deals with **what** data is stored.
+
+## **`Data model`**
+
+### **`What is a record?`**
+
+### **`What is NoSQL database?`**
+
+👉 A schemaless, flexible database capable of storing unstructured data.
+
+-   SQL is a language for managing and querying data.
+
+## `Data types`
 
 DECIMAL(5, 2)
 
 `1.2551` ✅  
 `24.5555` 🚫
 
-## Constraint
+## `Constraint`
 
 Constraints are some rules that are applied to a column.
 
-1. AUTO_INCREMENT 
+1. AUTO_INCREMENT
 2. PRIMARY KE
